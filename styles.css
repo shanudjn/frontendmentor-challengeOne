@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+:root{
+    --primary-color : hsl(185, 75%, 39%);
+    --desaturated-blue : hsl(229, 23%, 23%);
+    --grayish-blue : hsl(227, 10%, 46%);
+}
+body{
+    background-color: var(--primary-color);
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url('/images/bg-pattern-top.svg'), url('/images/bg-pattern-bottom.svg');
+    background-position: left -18vw top -65vh,right -12vw top 52vh;
+    background-repeat: no-repeat, no-repeat;
+    
+}
