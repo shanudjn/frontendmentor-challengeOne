@@ -85,4 +85,24 @@ hr{
     font-size: 12px;
 
 }
+.attribution{
+    position: absolute;
+    bottom:2%;
+    left : 42%;
+
+}
+@media only screen and (max-width:380px){
+    body{
+        background-position: left 128% top 60%,right 125% top -27%;   
+        margin: 10px;
+    }
+    .card{
+        transform: translate(-40%,0);
+    }
+    .attribution{
+        
+        left : 10%;
+    
+    }
+}
 
